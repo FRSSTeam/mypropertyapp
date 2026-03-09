@@ -1,0 +1,20 @@
+<svg width="324" height="72" viewBox="0 0 324 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon: person carved into home -->
+  <g transform="translate(8,8)">
+    <!-- House -->
+    <path d="M16 20L28 10L40 20V44C40 45.1046 39.1046 46 38 46H18C16.8954 46 16 45.1046 16 44V20Z" fill="#202E4A"/>
+    <!-- Door/person body (carved out) -->
+    <path d="M25 46V33C25 30.7909 26.7909 29 29 29C31.2091 29 33 30.7909 33 33V46H25Z" fill="white"/>
+    <!-- Head (carved circle) -->
+    <circle cx="29" cy="25" r="3.5" fill="white"/>
+  </g>
+
+  <!-- Text: MyProperty -->
+  <text x="70" y="46"
+        fill="#202E4A"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="28"
+        font-weight="700">
+    MyProperty
+  </text>
+</svg>
