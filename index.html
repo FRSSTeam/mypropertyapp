@@ -750,7 +750,7 @@
       const d = Math.floor(diff / 86400000);
       const h = Math.floor((diff % 86400000) / 3600000);
       const m = Math.floor((diff % 3600000)  / 60000);
-      const s = Math.floor((diff % 60000)    / 1000);
+      const s = Math.floor((diff % 60000)    / 1000); #changed 
       if (d !== prev.days)  { els.days.textContent  = pad(d); flip(els.days);  prev.days  = d; }
       if (h !== prev.hours) { els.hours.textContent = pad(h); flip(els.hours); prev.hours = h; }
       if (m !== prev.mins)  { els.mins.textContent  = pad(m); flip(els.mins);  prev.mins  = m; }
